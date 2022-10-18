@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8"> 
+        <title>菜鸟教程(runoob.com)</title> 
+    </head>
+    <body>
+        <div id="idv">
+            <p>我草</p>
+        </div>
+
+        <script>
+            var para=document.createElement("p");
+            para.id="我测"
+            var node=document.createTextNode("文本");
+            para.appendChild(node);
+            var element=document.getElementById("idv");
+            element.appendChild(para);
+        </script>
+
+        <script>
+            var para=document.createElement("p");
+            var node=document.createTextNode("文本");
+            para.appendChild(node);
+            var element=document.getElementById("我测");
+            element.appendChild(para);
+        </script>
+    </body>
+</html>
