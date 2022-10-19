@@ -1,0 +1,10 @@
+{
+    "name": "Darker",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Deep♂Dark♂Fantasy",
+    "permissions": ["tabs"],
+    "content_scripts": [
+        { "matches": ["<all_urls>"], "js": ["Dark.js"]}
+    ]
+}
