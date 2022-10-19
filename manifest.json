@@ -1,8 +1,10 @@
 {
-    "name": "哔哩哔哩js",
-    "version": "1.0",
+    "name": "BiliSpeeder",
     "manifest_version": 3,
+    "version": "1.0",
+    "description": "ChangeSpeed",
+    "permissions": ["tabs"],
     "content_scripts": [
-        { "matches": ["<all_urls>"], "js": ["哔哩哔哩倍速.js"] }
+        { "matches": ["<all_urls>"], "js": ["jquery.js","BiliSpeeder.js"]}
     ]
 }
