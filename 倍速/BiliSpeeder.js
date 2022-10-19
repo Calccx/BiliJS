@@ -2,7 +2,7 @@ let _interval = setInterval(function () {
     if (document.getElementById("InputerId") === null) {
         addSpeedBtns();
     }
-}, 500);
+}, 1000);
 function addSpeedBtns(){
     //修改速度函数
     function changeSpeeder(){
